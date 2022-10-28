@@ -1,0 +1,354 @@
+/*  Fonts */
+
+@font-face {
+  font-family: "CeraProNormal";
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/lego/CeraPro-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "CeraPro";
+  font-weight: 300;
+  font-style: normal;
+  src: url("fonts/lego/CeraPro-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "MetaFont";
+  font-weight: 300;
+  font-style: normal;
+  src: url("fonts/meta/6YirsaXqsap.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SpotifyFontNormal";
+  font-weight: 300;
+  font-style: normal;
+  src: url("fonts/spotify/CircularSpotify-UI-Latin-OS2v3-Black.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "SpotifyFont";
+  font-weight: 200;
+  font-style: normal;
+  src: url("fonts/spotify/CircularSpotify-UI-Latin-OS2v3-Black.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "SpotifyFontThin";
+  font-weight: 200;
+  font-style: normal;
+  src: url("fonts/spotify/CircularSpotify-UI-Latin-OS2v3-Book.woff2")
+    format("woff2");
+}
+
+/* Clases */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.card_lego {
+  font-family: "CeraPro";
+  color: white;
+}
+
+.card_meta {
+  font-family: "MetaFont";
+  color: white;
+}
+
+.card_spotify {
+  font-family: "SpotifyFont";
+  color: white;
+}
+
+.card_container {
+  margin: 50px auto;
+  width: 50%;
+  border: 1px solid #a2a2a6;
+  border-radius: 2px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+
+.card_container-lego {
+  background-color: #211428;
+}
+
+.card_container-meta {
+  background-color: #020305;
+}
+
+.card_container-spotify {
+  background-color: #503659;
+}
+
+img {
+  width: 500px;
+}
+
+.icon {
+  width: 20px;
+}
+
+.icon-yellow {
+  color: #fbfe07;
+}
+
+.icon-purple {
+  color: #211428;
+}
+
+.icon-dark {
+  color: #000305;
+}
+
+.icon-light {
+  color: white;
+}
+
+.icon-orange {
+  color: #ffa42b;
+}
+
+.info_card {
+  margin: 10px;
+  display: flex;
+  text-align: center;
+  top: 8px;
+  left: 16px;
+}
+
+.info_card-lego {
+  position: absolute;
+  color: #211428;
+}
+
+.info_card-meta {
+  position: absolute;
+  color: #000305;
+}
+
+.info_card-spotify {
+  margin-top: 15px;
+  margin-left: 30px;
+  color: #211428;
+  font-family: "SpotifyFontThin";
+}
+
+.text_container-lego {
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px rgb(250, 243, 243);
+}
+
+.text_container-meta {
+  background-color: #017ef6;
+}
+
+.text_container-spotify {
+  background-color: #ffa42b;
+}
+
+.text_container-meta-live {
+  background-color: #017ef6;
+  padding: 10px;
+}
+
+.text_container {
+  padding: 5px 10px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_element {
+  margin-left: 10px;
+}
+.live_banner {
+  margin-left: 20px;
+  background-color: #fbfe07;
+}
+
+.live_banner-meta {
+  margin-left: 20px;
+  background-color: white;
+}
+.live_banner-spotify {
+  margin-left: 20px;
+  background-color: white;
+}
+
+.event_info {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  text-align: start;
+}
+
+.event_info_elements {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.buttons_containers {
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.buttons_containers_watch {
+  background-color: white;
+  color: white;
+  appearance: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.buttons_containers_watch-lego {
+  padding: 15px;
+  background-color: #fbfe07;
+  border-radius: 2px;
+  font-family: "CeraPro";
+}
+
+.buttons_containers_watch-meta {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  color: #000305;
+}
+
+.buttons_containers_watch-spotify {
+  padding: 15px 25px;
+  font-family: "SpotifyFontThin";
+  background-color: #ffffff;
+  border-radius: 2px;
+  color: #000305;
+}
+.buttons_containers_watch-spotify:hover {
+  background-color: #ddd;
+}
+
+.buttons_containers_watch-meta:hover {
+  background-color: #ddd;
+}
+
+.buttons_containers_watch-lego:hover {
+  background-color: #dde107;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #000305;
+}
+
+.links-lego {
+  font-family: "CeraPro";
+  font-size: 14px;
+}
+.links-meta {
+  font-family: "MetaFont";
+  font-size: 14px;
+}
+
+.links-meta {
+  font-family: "SpotifyFontThin";
+  font-size: 14px;
+}
+
+.buttons_containers_calendar {
+  appearance: none;
+  padding: 15px;
+  color: black;
+  margin-left: 20px;
+  appearance: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: "CeraPro";
+}
+
+.buttons_containers_calendar-lego {
+  font-family: "CeraPro";
+}
+
+.buttons_containers_calendar-lego:hover {
+  background-color: #ddd;
+}
+
+.buttons_containers_calendar-meta {
+  font-family: "MetaFont";
+  background-color: #017ef6;
+}
+
+.buttons_containers_calendar-meta:hover {
+  background-color: #4fa7fa;
+}
+
+.buttons_containers_calendar-spotify {
+  font-family: "SpotifyFontThin";
+  background-color: #ffa42b;
+}
+
+.buttons_containers_calendar-spotify:hover {
+  background-color: #fe9000;
+}
+
+.dbuttons_containers_calendar:focus {
+  background-color: whitesmoke;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}

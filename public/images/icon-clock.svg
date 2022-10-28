@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event-card" transform="translate(-73.000000, -329.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="event_card" transform="translate(51.000000, 45.000000)">
+                <path d="M30,284 C34.418278,284 38,287.581722 38,292 C38,296.418278 34.418278,300 30,300 C25.581722,300 22,296.418278 22,292 C22,287.581722 25.581722,284 30,284 Z M30,285.6 C26.4653776,285.6 23.6,288.465378 23.6,292 C23.6,295.534622 26.4653776,298.4 30,298.4 C33.5346224,298.4 36.4,295.534622 36.4,292 C36.4,288.465378 33.5346224,285.6 30,285.6 Z M30.766755,288 L30.766755,292.593055 L33.1264672,294.531836 L32.0256216,295.956836 L29,293.470959 L29,288 L30.766755,288 Z" id="icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>
